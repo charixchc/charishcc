@@ -72,6 +72,15 @@ a.contact:visited {
 a.contact:hover {
   color: #815B5B;
 }
+#bottom {
+  text-align: center;
+  margin: 20px auto 10px auto;
+}
+p.contact {
+  text-align: center;
+  color: #FFF8EA;
+  font-size: 8px
+}
 /* resume */
 #date {
   width: 100px;
@@ -80,10 +89,6 @@ a.contact:hover {
 }
 #item {
   width: 500px;
-}
-#bottom {
-  text-align: center;
-  margin: 25px auto 25px auto;
 }
 #skills {
   padding: 0px 20px 0px 0px;
