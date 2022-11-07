@@ -1,39 +1,4 @@
-img {
-  border-radius: 50%;
-}
-#date {
-  width: 100px;
-  text-align: right;
-  font-weight: 600;
-}
-#item {
-  width: 500px;
-}
-#bottom {
-  text-align: center;
-  margin: 25px auto 25px auto;
-}
-footer.contact {
-  background-color: #9E7676;
-  bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-  position: fixed;
-  width: 100%;
-  box-shadow: 0px -2px 5px #594545;
-  flex: 0 0 50px;
-}
-th {
-  color: #FFF8EA;
-}
-td {
-  vertical-align: top;
-  padding: 0px 20px 0px 20px;
-}
-#skills {
-  padding: 0px 20px 0px 0px;
-}
+/* general */
 body {
   margin: 0;
   padding: 0;
@@ -43,6 +8,20 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+img {
+  border-radius: 50%;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+th {
+  color: #FFF8EA;
+}
+td {
+  vertical-align: top;
+  padding: 0px 20px 0px 20px;
 }
 div {
   margin: 100;
@@ -57,9 +36,44 @@ h3 {
   color: #594545;
   letter-spacing: 2px;
 }
-table {
+hr {
+  border-color: #9E7676;
+  border-style: dotted none none none;
+  border-width: 5px;
+  height: 0px;
+  width: 5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
+}
+/* footer */
+footer.contact {
+  background-color: #9E7676;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px -2px 5px #594545;
+  flex: 0 0 50px;
+}
+/* resume */
+#date {
+  width: 100px;
+  text-align: right;
+  font-weight: 600;
+}
+#item {
+  width: 500px;
+}
+#bottom {
+  text-align: center;
+  margin: 25px auto 25px auto;
+}
+#skills {
+  padding: 0px 20px 0px 0px;
 }
 div.header {
   padding: 20px;
@@ -77,17 +91,6 @@ hr.header {
   margin-left: auto;
   margin-right: auto;
 }
-hr {
-  border-color: #9E7676;
-  border-style: dotted none none none;
-  border-width: 5px;
-  height: 0px;
-  width: 5%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
 /* homepage */
 div.resume {
   position: relative;
@@ -96,6 +99,7 @@ div.resume {
 }
 a.resume {
   text-decoration: none;
+  font-weight: 600;
 }
 a.resume:link {
   color: #594545;
