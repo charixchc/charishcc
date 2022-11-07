@@ -47,72 +47,11 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
-/* footer */
-footer.contact {
-  background-color: #9E7676;
-  bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-  position: fixed;
-  width: 100%;
-  box-shadow: 0px -2px 5px #594545;
-  flex: 0 0 50px;
-}
-a.contact {
-  text-decoration: none;
-  font-weight: 600;
-}
-a.contact:link {
-  color: #594545;
-}
-a.contact:visited {
-  color: #594545;
-}
-a.contact:hover {
-  color: #815B5B;
-}
-#bottom {
-  text-align: center;
-  margin: 20px auto 10px auto;
-}
-p.contact {
-  text-align: center;
-  color: #FFF8EA;
-  font-size: 8px
-}
-/* resume */
-#date {
-  width: 100px;
-  text-align: right;
-  font-weight: 600;
-}
-#item {
-  width: 500px;
-}
-#skills {
-  padding: 0px 20px 0px 0px;
-}
-div.header {
-  padding: 20px;
-  background-color: #594545;
-}
-p.header {
-  color: #FFF8EA;
-}
-hr.header {
-  border-style: none;
-  border-width: 5px;
-  height: 0px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: auto;
-  margin-right: auto;
-}
 /* homepage */
 div.resume {
   position: relative;
-  padding: 25% 20%;
+  padding-top: 25%;
+  padding-bottom: 25%;
   text-align: center;
 }
 a.resume {
@@ -149,4 +88,66 @@ hr.header2 {
   margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
+}
+/* resume */
+#date {
+  width: 100px;
+  text-align: right;
+  font-weight: 600;
+}
+#item {
+  width: 500px;
+}
+#skills {
+  padding: 0px 20px 0px 0px;
+}
+div.header {
+  padding: 20px;
+  background-color: #594545;
+}
+p.header {
+  color: #FFF8EA;
+}
+hr.header {
+  border-style: none;
+  border-width: 5px;
+  height: 0px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* footer */
+footer.contact {
+  background-color: #9E7676;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px -2px 5px #594545;
+  flex: 0 0 50px;
+}
+a.contact {
+  text-decoration: none;
+  font-weight: 600;
+}
+a.contact:link {
+  color: #594545;
+}
+a.contact:visited {
+  color: #594545;
+}
+a.contact:hover {
+  color: #815B5B;
+}
+#bottom {
+  text-align: center;
+  margin: 20px auto 10px auto;
+}
+p.contact {
+  text-align: center;
+  color: #FFF8EA;
+  font-size: 8px
 }
