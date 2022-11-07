@@ -110,9 +110,14 @@ a.resume:visited {
 a.resume:hover {
   color: #9E7676;
 }
+.intro {
+  margin: auto;
+  width: 60%;
+}
 div.header2 {
   position: relative;
-  padding: 25% 20%;
+  padding-top: 25%;
+  padding-bottom: 25%;
   background-color: #594545;
 }
 p.header2 {
