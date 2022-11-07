@@ -59,6 +59,19 @@ footer.contact {
   box-shadow: 0px -2px 5px #594545;
   flex: 0 0 50px;
 }
+a.contact {
+  text-decoration: none;
+  font-weight: 600;
+}
+a.contact:link {
+  color: #594545;
+}
+a.contact:visited {
+  color: #594545;
+}
+a.contact:hover {
+  color: #815B5B;
+}
 /* resume */
 #date {
   width: 100px;
